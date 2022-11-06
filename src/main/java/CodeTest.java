@@ -10,6 +10,8 @@ public class CodeTest {
         int[]array = {1,2,4,4,5,67,12,12};
         Arrays.sort(array);
         int n  = array.length;
+        int n2  = array.length;
+        int n3  = array.length;
         int[] a = Arrays.copyOfRange(array,0,(n+1) / 2);
         int[] b = Arrays.copyOfRange(array,(n+1) / 2, n);
 
@@ -18,6 +20,7 @@ public class CodeTest {
 
 
         System.out.println();
+
 
 
     }
