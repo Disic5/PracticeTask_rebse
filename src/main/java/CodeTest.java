@@ -22,8 +22,6 @@ public class CodeTest {
 
 //new task donne
 
-
-
     }
 
 //    public static String multiTable(int num) {
