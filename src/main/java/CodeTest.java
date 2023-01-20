@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class CodeTest {
 
@@ -17,14 +19,11 @@ public class CodeTest {
 
         System.out.println();
         System.out.println();
-
-//new task donne
-
     }
 
-//    public static String multiTable(int num) {
-//        return IntStream.rangeClosed(1,10).mapToObj(i -> i + " * " + num + " = " + i * num).collect(Collectors.joining("\n"));
-//    }
+    public static String multiTable(int num) {
+        return IntStream.rangeClosed(1,10).mapToObj(i -> i + " * " + num + " = " + i * num).collect(Collectors.joining("\n"));
+    }
 //
 //    public static String reverse(String str){
 //        String result = "";
