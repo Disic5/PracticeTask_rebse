@@ -55,6 +55,9 @@ public class TaskTest {
 //               // System.out.println(entry.getKey());
 //            }
 //        }
+        public static void main(String[] args) {
+            System.out.println("rkkl-2");
+        }
     }
 
 //    public static List<Integer> findNumber(List<Integer> integerList) {
@@ -66,5 +69,7 @@ public class TaskTest {
 //        }
 //        return result;
 //    }
+
+
 
 }
