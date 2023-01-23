@@ -24,13 +24,14 @@ public class CodeTest {
     public static String multiTable(int num) {
         return IntStream.rangeClosed(1,10).mapToObj(i -> i + " * " + num + " = " + i * num).collect(Collectors.joining("\n"));
     }
-//
-//    public static String reverse(String str){
-//        String result = "";
-//        for (int i = 0; i < str.length(); i++) {
-//            result = str.charAt(i) + result;
-//        }
-//        return result;
-//    }
+
+    public static String reverse(String str){
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+            result = str.charAt(i) + result;
+        }
+        return result;
+    }
+
 
 }
