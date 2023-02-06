@@ -32,6 +32,5 @@ public class CodeTest {
         }
         return result;
     }
-
-// парабола
+//df
 }
